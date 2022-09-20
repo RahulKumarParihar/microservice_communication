@@ -1,1 +1,7 @@
-https://localhost:7180/WeatherForecast
+### Create a new message
+POST https://localhost:7180/Message
+content-type: application/json
+
+{
+    "message": "Hello From Rahul"
+}
