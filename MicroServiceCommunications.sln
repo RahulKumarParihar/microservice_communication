@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceCommunication.G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceCommunication.MessageBrokers", "MicroServiceCommunication.MessageBrokers\MicroServiceCommunication.MessageBrokers.csproj", "{9DE861AD-263F-44E3-B588-57C11E471970}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicorServiceCommunication.GRPCServer", "MicorServiceCommunication.GRPCServer\MicorServiceCommunication.GRPCServer.csproj", "{97B65422-AD9E-4796-9B22-74F6D455052A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceCommunication.GRPCClient", "MicroServiceCommunication.GRPCClient\MicroServiceCommunication.GRPCClient.csproj", "{D5FF4AAB-0E4C-4657-8A52-B5815613EA35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{9DE861AD-263F-44E3-B588-57C11E471970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE861AD-263F-44E3-B588-57C11E471970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE861AD-263F-44E3-B588-57C11E471970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B65422-AD9E-4796-9B22-74F6D455052A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B65422-AD9E-4796-9B22-74F6D455052A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B65422-AD9E-4796-9B22-74F6D455052A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B65422-AD9E-4796-9B22-74F6D455052A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FF4AAB-0E4C-4657-8A52-B5815613EA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FF4AAB-0E4C-4657-8A52-B5815613EA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FF4AAB-0E4C-4657-8A52-B5815613EA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FF4AAB-0E4C-4657-8A52-B5815613EA35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
